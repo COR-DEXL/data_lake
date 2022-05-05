@@ -1,2 +1,2 @@
-# data_lake
+# Data Lake
 Repositório contendo o script de criação e configuração do data lake a ser empregado no projeto.
