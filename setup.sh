@@ -5,7 +5,7 @@ mkdir -p $PWD/datalake/staged
 mkdir -p $PWD/datalake/curated
 
 docker run \
-  --name minio-cor \
+  --name rionowcast-minio \
   -p 9100:9000 \
   -p 9101:9001 \
   -d \
