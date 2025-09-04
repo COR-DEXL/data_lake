@@ -23,3 +23,9 @@ docker stop rionowcast-minio
 
 ### MinIO data lake GUI
 To get access to MinIO data lake GUI, access `localhost:9101` from your web browser. MinIO data lake login page will be shown. Enter credentials defined in the `.env` file.
+
+### Conventions
+For data organization inside the data lake, the conventions defined in [docs/convention.md](docs/convention.md) should be followed.
+
+### Catalog Metadata
+For data catalog metadata, see [docs/metadata.md](docs/meta.ipynb).
